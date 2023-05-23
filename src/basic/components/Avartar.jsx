@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Avartar({image, isNew}) {
+export default function Avatar({image, isNew}) {
   return (
     <div className='avartar'>
        <img className='photo' src={image} alt="avatar" />
